@@ -1,33 +1,47 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>contato</title>
-    <style>
-        body {
-            text-align: center; /* Centraliza o conteúdo na horizontal */
-            font-family: Georgia, sans-serif;
-        }
-
-        .container {
-            margin: 0 auto; /* Centraliza o container na horizontal */
-            width: 80%; /* Define a largura do container */
-            padding: 100px;
-        }
-
-        .contact-info {
-            text-align: center; /* Centraliza o conteúdo dentro do container na horizontal */
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Página de Contato</title>
 </head>
 <body>
+ 
     <div class="container">
-        <h1>contato</h1>
-        <div class="contact-info">
-            <p>Número de Telefone: (19)98761510</p>
-            <p>Email: larissabalestra7@gmail.com</p>
-             <p>linkidin: Larissa cristina</p>
-              <p>Git houb:Lajsjsj</p>
+        <h1>Contato</h1>
+        <h2>Você pode me contatar pelos seguintes meios:</h2>
+        <ul>
+            <li>Email: <a href="mailto:larissabalestra7@gmail.com">larissabalestra7@gmail.com</a></li>
+            <li>WhatsApp: <a href="https://wa.me/5519987651510?text=ol%C3%A1%21+vi+seu+curr%C3%ADculo+e+me+interessei">19987651510</a></li>
+            <li>Github:<a href="https://github.com/Lajsjsj/curiculo">https://github.com/Lajsjsj/curiculo</a></li>
+            <li>LinkedIn: <a href= "https://www.linkedin.com/checkpoint/lg/login?trk=registration-frontend">https://www.linkedin.com/checkpoint/lg/login?trk=registration-frontend</a></li>
+        </ul>
+ 
+        <div class="contato-form">
+            <h2>Se preferir, preencha o formulário abaixo:</h2>
+            <form action="/enviar-contato" method="post" class="contact-form">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+ 
+                <label for="selecaoEmpresas">Escolha uma empresa:</label>
+                <select id="selecaoEmpresas" name="selecaoEmpresas">
+                    <option value="samsung">Samsung</option>
+                    <option value="motorola">Motorola</option>
+                    <option value="ibm">IBM</option>
+                    <option value="amazon">Amazon</option>
+                </select>
+ 
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+ 
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+ 
+                <button type="submit">Enviar</button>
+            </form>
         </div>
     </div>
+ 
 </body>
 </html>

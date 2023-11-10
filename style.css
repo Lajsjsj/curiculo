@@ -186,3 +186,32 @@ a{
     margin-left: 490px;
     margin-top: 0px;
 }
+.h13p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #ec7607;
+    margin-left: 490px;
+    margin-top: 0px;
+}
+.h14p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: white;
+    margin-left: 490px;
+    margin-top: 0px;
+}
+.h200p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: white;
+    margin-left: 490px;
+    margin-top: 0px;
+}
+
+.container h1{
+
+    font-size: 15px;
+    color: #ec7607;
+
+}
+
